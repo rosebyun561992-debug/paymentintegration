@@ -1,0 +1,106 @@
+body {
+  background: linear-gradient(to right, #f7f7ff, #fce4ec);
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  color: #2196f3;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.product-list, .payment-method {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.product {
+  border: 2px solid #e91e63;
+  padding: 15px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.product img {
+  width: 100px;
+  height: auto;
+  margin-right: 5px;
+}
+
+.payment-option {
+  border: 2px dashed #2196f3;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.payment-option .note {
+  font-size: 0.9em;
+  color: #e91e63;
+  font-weight: bold;
+}
+
+.upload-section {
+  margin-top: 20px;
+}
+
+#proceed-btn {
+  margin-top: 10px;
+}
+
+.result {
+  margin-top: 20px;
+  font-weight: bold;
+  color: green;
+}
+
+#back-btn {
+  margin-top: 30px;
+  background: #2196f3;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* ✅ New CSS added below for enlarged buttons and file input spacing */
+
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #e91e63;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+#proof-file {
+  margin-bottom: 10px;
+}
+.direction {
+  text-align: justify;
+  background-color: #fff3f7;
+  padding: 15px;
+  border: 1px solid #e91e63;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
